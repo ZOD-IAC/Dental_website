@@ -3,9 +3,7 @@ import { DownArrow } from "@/svgs/NavIcons";
 export default function NavButton({ visible, handlelcick, isScrolled }) {
   return (
     <button
-      className={`lg:hidden md:hidden mx-3 ${
-        visible ? "transition-all duration-500 rotate-180" : " duration-500"
-      }`}
+      className={`lg:hidden md:hidden mx-3 `}
       onClick={handlelcick}
       aria-label="Phone Nav toggle"
     >

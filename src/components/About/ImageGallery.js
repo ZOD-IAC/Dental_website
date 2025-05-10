@@ -25,6 +25,8 @@ const imageData = [
   "/image/webImages/gallery14.webp",
   "/image/webImages/gallery15.webp",
   "/image/webImages/gallery16.webp",
+  "/image/webImages/gallery17.jpg",
+  "/image/webImages/gallery18.jpg",
   "/image/webImages/OurStory.webp",
   "/image/webImages/welDenFac.webp",
 ];

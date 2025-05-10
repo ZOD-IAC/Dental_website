@@ -117,7 +117,7 @@ function Footer() {
                 <th>Timings</th>
               </tr>
               <tr className={styles.tableRow}>
-                <td>Monday - Friday</td>
+                <td>Monday - Saturday</td>
                 <td>10:00 am - 7:00 pm</td>
               </tr>
               <tr className={styles.tableRow}>

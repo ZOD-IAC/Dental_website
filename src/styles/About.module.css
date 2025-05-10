@@ -28,7 +28,8 @@
 
 .imgbg {
   position: absolute;
-  background-color: #facc1537;
+  background-color: #dcfce7;
+  /* background-color: #facc1537; */
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   height: 40vh;
   width: calc(100% - 15vh);
