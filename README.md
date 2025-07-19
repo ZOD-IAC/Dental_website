@@ -1,4 +1,4 @@
-![alt text](https://github.com/DentalFacets/Dental_facets_Website/blob/main/public/image/Screenshot%202024-10-01%20115328.png)
+![alt text](https://github.com/ZOD-IAC/Dental_website/blob/main/public/image/Screenshot%202024-10-01%20115328.png)
 
 # Project Title
 
