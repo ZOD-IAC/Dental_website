@@ -31,7 +31,7 @@ function DoctorCards({ name, avt, year, para, consult }) {
       </p>
       <p className="my-5 text-xl">- {consult} -</p>
       <p className="font-extrabold">
-        {year ? year + " Years Experience" : "10 years"}
+        {year ? year + " Years Experience" : " "}
       </p>
     </div>
   );

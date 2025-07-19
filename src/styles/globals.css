@@ -32,7 +32,7 @@ body {
 }
 
 html {
-  background: url("../../public/image/body-Bg3.webp") no-repeat center center
+  background: url('../../public/image/body-Bg3.webp') no-repeat center center
     fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -44,14 +44,14 @@ html {
   position: relative;
   /* top: 5rem; */
 }
-::-moz-selection {
+/* ::-moz-selection {
   color: antiquewhite;
   background: #000;
 }
 ::selection {
   color: antiquewhite;
   background: #000;
-}
+} */
 
 .embla {
   overflow: hidden;
@@ -62,4 +62,8 @@ html {
 .embla__slide {
   flex: 0 0 100%;
   min-width: 0;
+}
+
+a {
+  outline: none;
 }

@@ -26,6 +26,13 @@ function Doctorbanner() {
       para: "Bachelor's of Dental Surgery",
       consult: "Consultant",
     },
+    {
+      name: 'Dr. Mitali Sharma',
+      year: '',
+      avt: '/image/avatars/avatar4.jpg',
+      para: 'Master of Dental Surgery\nOrthodontics & Dentofacial Orthopaedics',
+      consult: 'Consultant',
+    },
   ];
   return (
     <div className={styles.docCardBg}>
