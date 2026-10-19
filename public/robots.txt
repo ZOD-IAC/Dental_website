@@ -1,6 +1,4 @@
-# Allow all web crawlers to index all content
 User-agent: *
-Disallow:
+Allow: /
 
-# Sitemap URL
-Sitemap: https://dentalfacets.in//sitemap.xml
+Sitemap: https://www.dentalfacets.in/sitemap.xml

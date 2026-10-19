@@ -1,136 +1,81 @@
-import React from "react";
-import AboutUS from "@/components/About/AboutUS";
-import Image from "next/image";
-import styles from "@/styles/AboutPage.module.css";
-import Doctorbanner from "@/components/DoctorComponent/Doctorbanner";
-import Appointementbanner from "@/components/CommonComponents/Appointementbanner";
-import ImageGallery from "@/components/About/ImageGallery";
-import Head from "next/head";
-import abt1 from "../../../public/image/webImages/welDenFac.webp";
-import abt2 from "../../../public/image/webImages/OurStory.webp";
-import abt3 from "../../../public/image/webImages/welDenFac.webp";
-
-function About() {
+import { Founder } from "@/components/redesign/Clinic";
+import { Gallery, Reviews } from "@/components/redesign/Enhancements";
+import Seo from "@/components/redesign/Seo";
+import { PageIntro, Photo, Team, Cta } from "@/components/redesign/Clinic";
+export default function About() {
   return (
     <>
-      <Head>
-        <title>Dental Facets - Your Trusted Dental Clinic</title>
-        <meta
-          name="description"
-          content="Discover Dental Facets, a leading dental clinic offering comprehensive care. Our experienced team specializes in teeth whitening, veneers, dental implants, braces, and more. Experience personalized treatment in a welcoming environment."
+      <Seo
+        title="Our Clinic & Dentists | Dental Facets, Gurugram"
+        description="Meet the Dental Facets team and explore our Sector 56, Gurugram clinic. Learn about our approach to personal, informed dental care."
+        path="/About"
+      />
+      <PageIntro
+        label="OUR CLINIC"
+        title={
+          <>
+            A personal approach.
+            <br />
+            <em>In every detail.</em>
+          </>
+        }
+      >
+        Dental care begins with trust. We make space for your questions, your
+        concerns, and the care that is right for you.
+      </PageIntro>
+      <section className="wrap about-image">
+        <Photo
+          src="/image/webImages/welDenFac.webp"
+          alt="Inside the Dental Facets clinic in Gurugram"
+          priority
         />
-        <meta
-          name="keywords"
-          content="dental clinic, dentist, dental services, teeth whitening, veneers, dental implants, braces, orthodontics, root canal, dental cleaning, dental checkup, dental emergency, dental services, Gurugram dentist"
-        />
-        <link rel="canonical" href="https://dentalfacets.in/About" />
-      </Head>
-      <div className="relative top-16">
-        <h1 className={styles.abtUsHeading}> About Us</h1>
-
-        <div
-          className={`${`${styles.StaticContainers} md:flex md:items-center`} md:flex md:items-center`}
-        >
-          <div className={`md:w-2/3 lg:w-2/3`}>
-            <h2 className={`${styles.welHead} md:text-4xl md:mb-[2rem]`}>
-              Welcome to Dental Facets
+      </section>
+      <section className="section wrap split">
+        <div>
+          <div className="eyebrow">OUR APPROACH</div>
+          <h2>
+            Your comfort.
+            <br />
+            Your questions.
+            <br />
+            <em>Your care.</em>
+          </h2>
+        </div>
+        <div>
+          <p className="large-text">
+            We believe understanding your treatment is part of receiving good
+            care.
+          </p>
+          <p>
+            Our team offers preventive, restorative, and cosmetic dental
+            treatments, with specialist consultations for more complex needs. We
+            discuss your concerns and explain recommended treatment before you
+            decide on your next step.
+          </p>
+          <p>
+            Visit us at our Sector 56 clinic in Gurugram. Consultations are also
+            available at Sehgal Neo Hospital in Paschim Vihar, New Delhi;
+            contact us to confirm availability at your preferred location.
+          </p>
+        </div>
+      </section>
+      <Founder />
+      <section className="section wrap" id="team">
+        <div className="section-heading">
+          <div>
+            <div className="eyebrow">MEET YOUR DENTISTS</div>
+            <h2>
+              Care is personal.
+              <br />
+              <em>So are we.</em>
             </h2>
-            <p className={"text-pretty text-lg my-5 text-justify md:text-xl "}>
-              At Dental Facets, we believe that a healthy, beautiful smile is
-              essential to overall well-being. Our clinic is dedicated to
-              provide comprehensive dental care with a focus on your comfort and
-              satisfaction. We combine the latest technology with personalized
-              service to ensure that every visit leaves you feeling confident in
-              your dental health.
-            </p>
-          </div>
-          <div className={styles.imageWrapper}>
-            <Image
-              className=" rounded-3xl shadow-lg ld:rounded-lg mx-1 saturate-[1.5]"
-              src={abt1}
-              fill
-              // placeholder="blur"
-              sizes="100vh"
-              alt="welcome image "
-              style={{ objectFit: "cover" }}
-              priority="true"
-            />
           </div>
         </div>
-
-        <AboutUS />
-        <Appointementbanner />
-
-        <div className={`${styles.StaticContainers} md:flex md:items-center`}>
-          <div className={" md:w-2/3 lg:w-2/3"}>
-            <h2 className={styles.welHead}>Our Story</h2>
-            <p className={"text-pretty text-lg my-5 text-justify md:text-xl "}>
-              Founded with a deep passion for patient-centered care, Dental
-              Facets has grown into a trusted name in the dental community. Our
-              journey began with a clear mission: to provide exceptional dental
-              care in a warm and welcoming environment. Over the years, we have
-              remained true to this mission, consistently upgrading our skills
-              and technology to meet the evolving needs of our patients.
-            </p>
-          </div>
-          <div className={styles.imageWrapper}>
-            <Image
-              className=" rounded-3xl shadow-lg ld:rounded-lg lg:mx-1"
-              src={abt2}
-              fill
-              placeholder="blur"
-              sizes="100vh"
-              alt="welcome image "
-              style={{ objectFit: "cover" }}
-              loading="lazy"
-            />
-          </div>
-        </div>
-
-        <ImageGallery />
-
-        <div className={`${styles.StaticContainers} md:flex md:items-center`}>
-          <div className={`md:w-2/3 lg:w-2/3`}>
-            <h2 className={styles.welHead}>Meet Our Team</h2>
-            <p className={"text-pretty text-lg my-5 text-justify md:text-xl"}>
-              Our skilled and compassionate team is led by Dr. Promod, a highly
-              experienced dentist specialized in faciomaxillary oral surgery
-              surgery and implantology . With a dedication to excellence and a
-              gentle approach, Dr. Promod ensures that each patient receives the
-              highest standard of care. Our staff is not only knowledgeable but
-              also passionate about making your experience as comfortable and
-              stress-free as possible.
-            </p>
-          </div>
-          <div className={styles.imageWrapper}>
-            <Image
-              className=" rounded-3xl md:rounded-xl"
-              src={abt3}
-              placeholder="blur"
-              fill
-              alt="welcome image"
-              sizes="100vh"
-              style={{ objectFit: "cover" }}
-            />
-          </div>
-        </div>
-        <Doctorbanner />
-        <div className={`${styles.StaticContainers} md:flex md:items-center`}>
-          <div className={"md:w-2/3 lg:w-2/3"}>
-            <h2 className={styles.welHead}>Our Commitment to You</h2>
-            <p className={"text-pretty text-lg my-5 text-justify md:text-xl "}>
-              At Dental Facets, our commitment is to provide exceptional dental
-              care while building lasting relationships with our patients. We
-              strive to create a positive and relaxing atmosphere, where you can
-              feel confident that your health is in good hands. We take the time
-              to understand your unique needs and tailor our approach to ensure
-              you receive the best possible care.
-            </p>
-          </div>
-        </div>
-      </div>
+        <Team />
+      </section>
+      <Gallery />
+      <Reviews />
+      <Cta />
     </>
   );
 }
-
-export default About;

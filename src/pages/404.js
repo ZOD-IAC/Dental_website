@@ -1,46 +1,31 @@
 import Link from "next/link";
-import { useEffect, useState } from "react";
-import { Rocket, Astronaut } from "@/svgs/404Icon";
-import styles from "@/styles/404/404.module.css";
-export default function Custom404() {
-  const [floatingMessage, setFloatingMessage] = useState("");
-
-  useEffect(() => {
-    const messages = [
-      "Oops! Lost in space?",
-      "Are you sure you’re on the right planet?",
-      "This page went for a dental checkup...",
-      "Houston, we have a 404!",
-    ];
-
-    let index = 0;
-    const interval = setInterval(() => {
-      setFloatingMessage(messages[index]);
-      index = (index + 1) % messages.length;
-    }, 3000);
-
-    return () => clearInterval(interval);
-  }, []);
-
+import Seo from "@/components/redesign/Seo";
+import { PageIntro } from "@/components/redesign/Clinic";
+export default function NotFound() {
   return (
-    <div className={styles.error_container}>
-      <div className={styles.animation_container}>
-        <div className={styles.moon}></div>
-        <div className={styles.rocket}>
-          <Rocket width={"8rem"} />
-        </div>
-        <div className={styles.astronaut}>
-          <Astronaut width={"8rem"} />
-        </div>
-      </div>
-
-      <div className={styles.error_text}>
-        <h1>404</h1>
-        <h2>{floatingMessage}</h2>
-        <Link className={styles.back_home_btn} href={"/"}>
-          Back to Home
+    <>
+      <Seo
+        title="Page Not Found | Dental Facets"
+        description="This page could not be found. Explore Dental Facets treatments or contact the clinic."
+        noindex
+      />
+      <PageIntro
+        label="404 · PAGE NOT FOUND"
+        title={
+          <>
+            Let’s get you
+            <br />
+            <em>back on track.</em>
+          </>
+        }
+      >
+        The page you’re looking for may have moved.
+      </PageIntro>
+      <div className="wrap section">
+        <Link className="button" href="/">
+          Back to home ↗
         </Link>
       </div>
-    </div>
+    </>
   );
 }
