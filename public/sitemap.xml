@@ -1,72 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://www.dentalfacets.in/</loc>
-  <lastmod>2024-10-08T08:50:17+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.dentalfacets.in/About</loc>
-  <lastmod>2024-10-08T08:50:17+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dentalfacets.in/Service</loc>
-  <lastmod>2024-10-08T08:50:17+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dentalfacets.in/Service/Oral%20physician%20and%20radiology</loc>
-  <lastmod>2024-10-08T08:50:17+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dentalfacets.in/Service/Conservative%20and%20Endodontics</loc>
-  <lastmod>2024-10-08T08:50:17+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dentalfacets.in/Service/Crowns%20and%20Bridge</loc>
-  <lastmod>2024-10-08T08:50:17+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dentalfacets.in/Service/Orthodontics%20and%20Aligners</loc>
-  <lastmod>2024-10-08T08:50:17+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dentalfacets.in/Service/Oral%20and%20Maxillofacial%20Surgery</loc>
-  <lastmod>2024-10-08T08:50:17+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dentalfacets.in/Service/Pediatric%20Dentistry</loc>
-  <lastmod>2024-10-08T08:50:17+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dentalfacets.in/Service/Preventive%20Dental%20Care</loc>
-  <lastmod>2024-10-08T08:50:17+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dentalfacets.in/Service/%20Cosmetic%20dentistry</loc>
-  <lastmod>2024-10-08T08:50:17+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.dentalfacets.in/Contact</loc>
-  <lastmod>2024-10-08T08:50:17+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.dentalfacets.in/</loc></url>
+  <url><loc>https://www.dentalfacets.in/About</loc></url>
+  <url><loc>https://www.dentalfacets.in/Service</loc></url>
+  <url><loc>https://www.dentalfacets.in/Contact</loc></url>
+  <url><loc>https://www.dentalfacets.in/Service/Oral%20physician%20and%20radiology</loc></url>
+  <url><loc>https://www.dentalfacets.in/Service/Conservative%20and%20Endodontics</loc></url>
+  <url><loc>https://www.dentalfacets.in/Service/Crowns%20and%20Bridge</loc></url>
+  <url><loc>https://www.dentalfacets.in/Service/Orthodontics%20and%20Aligners</loc></url>
+  <url><loc>https://www.dentalfacets.in/Service/Oral%20and%20Maxillofacial%20Surgery</loc></url>
+  <url><loc>https://www.dentalfacets.in/Service/Pediatric%20Dentistry</loc></url>
+  <url><loc>https://www.dentalfacets.in/Service/Preventive%20Dental%20Care</loc></url>
+  <url><loc>https://www.dentalfacets.in/Service/%20Cosmetic%20dentistry</loc></url>
 </urlset>
